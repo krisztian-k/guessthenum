@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Guess the Number{% endblock %}
+{% block content %}
+<form action="#" method="post">
+    <h1>Guess the Number</h1>
+    <p>Your Guess:</p>
+    <p><input type="number" name="nb" /></p>
+    <p><input type="submit" value="submit" /></p>
+    <p>
+        {{message}}
+    </p>
+</form>
+{% endblock %}
